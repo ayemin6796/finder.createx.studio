@@ -1,0 +1,93 @@
+$primary:#fd5631;
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+// =========== Default ==============
+.default-margin{
+  margin-right: 8px;
+}
+// =========== For Nav bar ============
+.dropdown-menu{
+  border-radius: 16px;
+}
+.navbar-nav:hover .nav-link{
+  color:$primary;
+}
+
+.dropdown-icon:hover{
+  color:$primary;
+}
+ul li a:hover,
+ul li a i:hover{
+  color:$primary;
+}
+
+.first-nav:hover .dropdown-menu{
+  display: block;
+}
+.first-nav .dropdownList:hover {
+    background: none;
+    color: $primary !important;
+}
+.border-bottom{
+  border-bottom: 1px solid #343434;
+}
+
+// ========== For Hero Section ==========
+.hero-text{
+  padding-top:160px;
+}
+.container-rebuild{
+  width:980px;
+  min-height:1220px;
+}
+.hero-main a span,
+.hero-main a img{
+  transition: 0.4s;
+}
+.hero-main:hover a span{
+  color: $primary;
+}
+.hero-main:hover a img{
+  transform: scale(1.02);
+}
+
+.hero-head{
+  position:relative;
+}
+.section-1{
+  position: absolute;
+  top:335px;
+  left: 270px;
+  z-index: 9999;
+}
+.section-2{
+  position: absolute;
+  top:180px;
+  right:-690px;
+}
+.section-3 {
+  position: absolute;
+  top:640px;
+  right:-690px;
+}
+.section-4{
+  position: absolute;
+  top:800px;
+  left:40px;
+}
+
+// ========Feature Section ========
+.card-feature:hover{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 13px;
+}
+.highlight-text{
+  line-height: 22px;
+}
+
+//========================================== End of Index =============================================
+
+.properties-list:hover .dropdown-menu{
+  display: block;
+}
